@@ -1,2 +1,6 @@
-# web-335
-WEB 330 Enterprise JavaScript II
+# WEB 335 Introduction to NoSQL
+
+## Contributors
+
+- Professor Krasso
+- Victor Soto
