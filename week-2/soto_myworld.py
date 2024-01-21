@@ -1,7 +1,7 @@
 #Title: soto_myworld.py
 #Author: Victor Soto
 #Date: 01/21/2024
-#Description: https://www.youtube.com/watch?v=kqtD5dpn9C8
+#Source: https://www.youtube.com/watch?v=kqtD5dpn9C8
 
 # Write the code necessary to output 
 # the value “You are now in <yourLastName>’s world!”
