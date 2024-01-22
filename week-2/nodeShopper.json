@@ -1,0 +1,43 @@
+{
+    "CUSTOMER": {
+        "_id": "123",
+        "firstName": "Johnny",
+        "lastName": "Bravo",
+        "INVOICE": [
+            {
+                "_id": "456",
+                "createDate": "2024-01-01",
+                "shipDate": "2024-01-02",
+                "subtotal": 100,
+                "LINEITEM": [
+                    {
+                        "_id": "789",
+                        "productName": "Product 1",
+                        "price": 50,
+                        "qty": 2
+                    },
+                    {
+                        "_id": "790",
+                        "productName": "Product 2",
+                        "price": 25,
+                        "qty": 1
+                    }
+                ]
+            },
+            {
+                "_id": "457",
+                "createDate": "2024-01-15",
+                "shipDate": "2024-01-16",
+                "subtotal": 75,
+                "LINEITEM": [
+                    {
+                        "_id": "791",
+                        "productName": "Product 3",
+                        "price": 75,
+                        "qty": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

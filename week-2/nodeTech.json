@@ -1,0 +1,24 @@
+{
+    "STUDENT": {
+        "studentId": "9899874",
+        "firstName": "Johnny",
+        "lastName": "Bravo",
+        "ENROLLMENT": [
+            {
+                "term": "Spring 2024",
+                "gpa": 3.5,
+                "startDate": "2024-01-01",
+                "endDate": "2024-06-01",
+                "COURSE": [
+                    {
+                        "courseId": "456",
+                        "description": "Course 1",
+                        "instructor": "Instructor 1",
+                        "score": 90,
+                        "letterGrade": "A"
+                    }
+                ]
+            }
+        ]
+    }
+}
