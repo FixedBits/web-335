@@ -1,0 +1,27 @@
+{
+  "PUBLISHERS": [
+    {
+      "id": 1,
+      "name": "Publisher A",
+      "code": "001",
+      "address": "123 Street, City",
+      "BOOKS": [
+        {
+          "id": 1,
+          "isbn": "978-3-16-158470-0",
+          "name": "Book Title",
+          "price": "$20.00"
+        }
+      ]
+    }
+  ],
+  "AUTHORS": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Wick",
+      "phone": "1234567890",
+      "email": "wickjohn@email.com"
+    }
+  ]
+}

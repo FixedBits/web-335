@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>360</x>
+      <y>430</y>
+      <w>350</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Business Rules
+--
+1. a PUBLISHER(s) can have one or many BOOK(s)
+
+2. an AUTHOR(s) can have one or many BOOK(s)
+bg=orange
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>340</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>340</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>440</x>
+      <y>350</y>
+      <w>40</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>1:N
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>760</x>
+      <y>350</y>
+      <w>40</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>1:N
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>260</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>BOOKS
+--
+_id
+_isbn
+_price
+_book_name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>260</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>PUBLISHERS
+--
+_id
+_name
+_code
+_address</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>260</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>AUTHOR
+--
+_id
+_first_name
+_last_name
+_phone
+_email</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,47 @@
+{
+  "user": [
+    {
+      "_id": "1001",
+      "firstName": "John",
+      "lastName": "Wick",
+      "role": [
+        {
+          "_id": "2001",
+          "title": "manager",
+          "permission": [
+            {
+              "_id": "3001",
+              "description": "Manage All Projects"
+            },
+            {
+              "_id": "3002",
+              "description": "Allocate Resources to All Departments"
+            },
+            {
+              "_id": "3003",
+              "description": "Review All Department Reports"
+            },
+            {
+              "_id": "3004",
+              "description": "Approve or Reject Project Proposals"
+            }
+          ]
+        },
+        {
+          "_id": "2002",
+          "title": "assistant_manager",
+          "permission": [
+            {
+              "_id": "3005",
+              "description": "Access to Manager's Projects"
+            },
+            {
+              "_id": "3006",
+              "description": "Coordinate with Peers in Other Departments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
