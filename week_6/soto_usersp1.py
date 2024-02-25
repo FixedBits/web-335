@@ -2,6 +2,7 @@
 #Title:  soto_usersp1.py
 #Author: Victor Soto
 #Date:   02/18/2024
+#Date Updated: 02/25/2024
 #Description: Learning how to use Python to connect to MongoDB
 #---------------------------
 
