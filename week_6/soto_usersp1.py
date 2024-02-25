@@ -9,7 +9,7 @@
 from pymongo import MongoClient
 
 # Build a connection string to connect to
-client = MongoClient("mongodb+srv://web335_user:web335_user@bellevueuniversity.hxeidsl.mongodb.net/web335DB?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.heixdsl.mongodb.net/web335DB?retryWrites=true&w=majority&appName=BellevueUniversity")
 
 # Get a reference to the 'web335DB' database
 db = client.web335DB
